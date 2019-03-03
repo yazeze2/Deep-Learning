@@ -20,7 +20,7 @@ Process data to remove and replace characters and words irrlevant for analysis t
 - **Process Tweet with regex:** Remove twitter usernames beginning with @, remove URLs, and replace #hashtag with hashtag
 
 
-### Model Building & Validation Loss
+### Model Building & Validation Accuracy
 - **Feature Extraction** - namely, unigrams and bigrams
 - **Feature Representation** - Dense Word Embedding - **GloVe** word vector provided by StanfordNLP group
 - **Weight Update scheme** - Adam (Experimented with SGD + Momentum updating scheme but observed to take longer(100 epochs more) to produce a comparable validation loss.
@@ -29,8 +29,8 @@ Process data to remove and replace characters and words irrlevant for analysis t
       - Layers: 1 hidden layer with 500 neurons
       - Activation function: sigmoid
       - Loss metrics: binary cross_entropy
-      - Validation Loss = 1.042%
+      - Accuracy = 81.7%
   - **Convolutional Neural Network**
       - **Embedding layer (9000 x 200) ---> dropout(0.4) ---> conv_1(600 filters) ---> relu ---> con_2(300 filters) ---> relu ---> con_3(150 filters) --->rely--->flatten----dense(600)---> relu ----> dropout(0.5) ----> dense(1)------> sigmoid**
-      - Validation Loss = 0.155%
+      - VAccuracy = 83.4%
       
