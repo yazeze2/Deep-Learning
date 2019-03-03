@@ -2,7 +2,7 @@
 
 ### Convolutional Neural Networks (CNN) and Multi-layer perceptron (MLP) Models for twitter sentiment analysis - without using NLTK's in-built sentiment analysis engine
 
-The dataset can be acquired [here](https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis/). Moreover, the GloVe word vector is provided by Stanford NLP group and can be downloaded [here](https://nlp.stanford.edu/projects/glove/)
+The dataset for this project can be acquired [here](https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis/). Moreover, the GloVe word vector is provided by Stanford NLP group and can be downloaded [here](https://nlp.stanford.edu/projects/glove/)
 
 ## Contents
 
