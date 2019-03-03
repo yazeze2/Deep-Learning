@@ -32,5 +32,5 @@ Process data to remove and replace characters and words irrlevant for analysis t
       - Accuracy = 81.7%
   - **Convolutional Neural Network**
       - **Embedding layer (9000 x 200) ---> dropout(0.4) ---> conv_1(600 filters) ---> relu ---> con_2(300 filters) ---> relu ---> con_3(150 filters) --->rely--->flatten----dense(600)---> relu ----> dropout(0.5) ----> dense(1)------> sigmoid**
-      - VAccuracy = 83.4%
+      - Accuracy = 83.4%
       
