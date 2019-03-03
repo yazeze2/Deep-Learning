@@ -20,7 +20,9 @@ Process data to remove and replace characters and words irrlevant for analysis t
 
 ### Models Building & Validation Loss
 - **Feature Extraction** - namely, unigrams and bigrams
-- **Feature Representation** - Sparse Vector Representation for word presence and frequency feature types
+- **Feature Representation** - Dense Word Embedding - **GloVe**
+- **Weight Update scheme** - Adam (Experimented with SGD + Momentum updating scheme but observed to take longer)
+
 - **Classifiers**:
   - **Multi-layer Perceptron**
       - Layers: 1 hidden layer with 500 neurons
