@@ -9,6 +9,7 @@ The dataset for this project can be acquired [here](https://datahack.analyticsvi
 ### Tools Required
 The general requirements for this project are as follows:
 - numpy
+- regex
 - tensorflow
 - keras
 
