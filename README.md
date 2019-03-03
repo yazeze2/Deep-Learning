@@ -18,9 +18,9 @@ Process data to remove and replace characters and words irrlevant for analysis t
 - **Process Tweet with regex:** Remove twitter usernames beginning with @, remove URLs, and replace #hashtag with hashtag
 
 
-### Models Building & Validation Loss
+### Model Building & Validation Loss
 - **Feature Extraction** - namely, unigrams and bigrams
-- **Feature Representation** - Dense Word Embedding - **GloVe**
+- **Feature Representation** - Dense Word Embedding - **GloVe** word vector provided by StanfordNLP group
 - **Weight Update scheme** - Adam (Experimented with SGD + Momentum updating scheme but observed to take longer)
 
 - **Classifiers**:
