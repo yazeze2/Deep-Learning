@@ -2,12 +2,13 @@
 
 ### Convolutional Neural Networks (CNN) and Multi-layer perceptron (MLP) Models for twitter sentiment analysis - without using NLTK's in-built sentiment analysis engine
 
+The dataset can be acquired [here](https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis/). Moreover, the GloVe word vector is provided by Stanford NLP group and can be downloaded [here](https://nlp.stanford.edu/projects/glove/)
+
 ## Contents
 
 ### Tools Required
 The general requirements for this project are as follows:
 - numpy
-- matplotlib
 - tensorflow
 - keras
 
@@ -21,8 +22,7 @@ Process data to remove and replace characters and words irrlevant for analysis t
 ### Model Building & Validation Loss
 - **Feature Extraction** - namely, unigrams and bigrams
 - **Feature Representation** - Dense Word Embedding - **GloVe** word vector provided by StanfordNLP group
-- **Weight Update scheme** - Adam (Experimented with SGD + Momentum updating scheme but observed to take longer)
-
+- **Weight Update scheme** - Adam (Experimented with SGD + Momentum updating scheme but observed to take longer(100 epochs more) to produce a comparable validation loss.
 - **Classifiers**:
   - **Multi-layer Perceptron**
       - Layers: 1 hidden layer with 500 neurons
